@@ -27,5 +27,6 @@ func(w http.ResponseWriter, r *http.Request) {
         TokenCache:   oauth.CacheFile(*cachefile),
 	}
 	transport := &oauth.Transport{Config: config, Transport: &urlfetch.Transport{Context: c}}
+	...
 }
 ```
