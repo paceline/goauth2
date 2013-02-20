@@ -8,7 +8,7 @@ Just check out or download the source code from its GitHub repository and copy i
 import (
     "appengine"
     "appengine/urlfetch"
-    "path/to/goauth2/oauth"
+    "github.com/paceline/goauth2/oauth"
     ...
 )
 ```
